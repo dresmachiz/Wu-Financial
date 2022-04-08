@@ -3,9 +3,45 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>This is Theoretically a Responsive Layout</title>
+<style> 
+	.row {
+	width:  100%
+}
+@media (min-width:  992px) {
+	.col-lg-1, .col-lg-2, .col-lg-3 {
+		float: left;
+		border:  1px black;
+	}
+	.col-lg-1 {
+		width:  33%;}
+	.col-lg-2 {
+		width:  33%;}
+	.col-lg-3 {
+		width: 33%;}
+	}
+}
+</style>
+
 </head>
 <body>
 	<h1> Moo </h1>
+	<div class= "col-lg-1">Take out the papers and the trash
+Or you don't get no spendin' cash
+If you don't scrub that kitchen floor
+You ain't gonna rock and roll no more
+Yakety yak (don't talk back)</div>
+
+<div class= "col-lg-2">Just finish cleanin' up your room
+Let's see that dust fly with that broom
+Get all that garbage out of sight
+Or you don't go out Friday night
+Yakety yak (don't talk back)</div>
+
+<div class= "col-lg-3">You just put on your coat and hat
+And walk yourself to the laundromat
+And when you finish doin' that
+Bring in the dog and put out the cat
+Yakety yak (don't talk back)</div>
 </body>
 </html>
